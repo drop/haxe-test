@@ -1,9 +1,21 @@
-/**
-    Multi-line comments for documentation.
-**/
+import js.Browser.document;
+
 class Main {
-    static public function main():Void {
-        // Single line comment
-        trace("Hello World");
-    }
+  // static entrypoint
+  static function main() new Main();
+
+  // constructor
+  function new() {
+    trace("DOM example");
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+      trace("DOM ready");
+
+      // Shorthand for document.createElement("p");
+      var p = document.createParagraphElement(); 
+      p.innerText = 'DOM ready';
+
+      document.querySelector("body").appendChild(p);
+    });
+  }
 }

@@ -1,7 +1,7 @@
 ## Building to javascript
 
 ```bash
-haxe --js -main Main ./public/js/index.js Main.hx
+haxe -main Main --js  ./public/js/index.js Main.hx
 ```
 
 ## Interpretation
