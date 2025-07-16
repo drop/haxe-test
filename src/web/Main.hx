@@ -1,3 +1,5 @@
+package web;
+
 import js.Browser.document;
 
 class Main {
