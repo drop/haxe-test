@@ -2,4 +2,7 @@
 --dce full
 
 -main app.Main
--js public/js/index.js
+
+# --------target------------
+# -js public/js/index.js
+--interp 
