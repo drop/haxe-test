@@ -7,5 +7,5 @@ haxe build.hxml
 ## Interpretation
 
 ```bash
-haxe --interp -main Main Main.hx
+haxe --interp --class-path src -m app.Main app/Main.hx
 ```

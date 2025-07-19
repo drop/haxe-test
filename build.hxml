@@ -1,5 +1,5 @@
 --class-path src
 --dce full
 
--main web.Main
+-main app.Main
 -js public/js/index.js
