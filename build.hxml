@@ -3,6 +3,8 @@
 
 -main app.Main
 
-# --------target------------
+# --------Build targets------------
 # -js public/js/index.js
+# --cpp ./build-cpp/
 --interp 
+
